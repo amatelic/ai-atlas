@@ -1,0 +1,389 @@
+{
+  "categories": [
+    {
+      "id": "featured",
+      "label": "Featured",
+      "description": "High-signal starting points for AI work."
+    },
+    {
+      "id": "design",
+      "label": "Design",
+      "description": "Interface, visual, and product design resources."
+    },
+    {
+      "id": "workflow",
+      "label": "Workflow",
+      "description": "Agent skills, orchestration, and repeatable operating manuals."
+    },
+    {
+      "id": "refactoring",
+      "label": "Refactoring",
+      "description": "AI-assisted code cleanup, migration, review, and modernization."
+    },
+    {
+      "id": "productivity",
+      "label": "Productivity",
+      "description": "Fast daily-use tools for research, drafting, and execution."
+    },
+    {
+      "id": "research",
+      "label": "Research",
+      "description": "Model discovery, papers, datasets, and evaluation references."
+    },
+    {
+      "id": "coding",
+      "label": "Coding",
+      "description": "Developer docs and frameworks for building AI products."
+    },
+    {
+      "id": "tts",
+      "label": "Text to Speech",
+      "description": "Open-source voice synthesis and text-to-speech models."
+    }
+  ],
+  "resources": [
+    {
+      "id": "manus-skills",
+      "title": "Manus Skills",
+      "url": "https://manus.im/docs/features/skills",
+      "type": "Skill",
+      "category": "workflow",
+      "summary": "Modular, file-based workflows for giving an AI agent reusable domain expertise.",
+      "tags": ["skills", "agents", "workflow", "reusable"],
+      "priority": 99,
+      "featured": true
+    },
+    {
+      "id": "openai-quickstart",
+      "title": "OpenAI API quickstart",
+      "url": "https://platform.openai.com/docs/quickstart/using-the-api",
+      "type": "Docs",
+      "category": "coding",
+      "summary": "A practical entry point for creating API keys and sending the first model request.",
+      "tags": ["openai", "api", "sdk", "quickstart"],
+      "priority": 96,
+      "featured": true
+    },
+    {
+      "id": "claude-docs",
+      "title": "Claude developer docs",
+      "url": "https://docs.claude.com/en/docs/welcome",
+      "type": "Docs",
+      "category": "coding",
+      "summary": "Anthropic documentation for Claude models, prompting, tools, and platform basics.",
+      "tags": ["anthropic", "claude", "models", "docs"],
+      "priority": 94,
+      "featured": true
+    },
+    {
+      "id": "gemini-api",
+      "title": "Gemini API reference",
+      "url": "https://ai.google.dev/gemini-api/docs/api-overview",
+      "type": "Docs",
+      "category": "coding",
+      "summary": "Google AI reference for Gemini API endpoints, SDKs, and generation workflows.",
+      "tags": ["google", "gemini", "api", "sdk"],
+      "priority": 90
+    },
+    {
+      "id": "google-ai-studio",
+      "title": "Google AI Studio",
+      "url": "https://aistudio.google.com/",
+      "type": "Tool",
+      "category": "design",
+      "summary": "A browser workspace for prototyping prompts, model behavior, and multimodal ideas.",
+      "tags": ["prototype", "prompts", "gemini", "studio"],
+      "priority": 88
+    },
+    {
+      "id": "hugging-face-models",
+      "title": "Hugging Face Models",
+      "url": "https://huggingface.co/models",
+      "type": "Directory",
+      "category": "research",
+      "summary": "A large searchable catalog for comparing open models, tasks, datasets, and trends.",
+      "tags": ["models", "open source", "research", "directory"],
+      "priority": 86,
+      "featured": true
+    },
+    {
+      "id": "langchain-overview",
+      "title": "LangChain overview",
+      "url": "https://docs.langchain.com/oss/python/langchain/overview",
+      "type": "Framework",
+      "category": "workflow",
+      "summary": "Framework docs for agents, tool calling, and model integrations across providers.",
+      "tags": ["agents", "framework", "tools", "orchestration"],
+      "priority": 84
+    },
+    {
+      "id": "llamaindex-docs",
+      "title": "LlamaIndex docs",
+      "url": "https://docs.llamaindex.ai/",
+      "type": "Framework",
+      "category": "research",
+      "summary": "Reference for building AI workflows over private data, retrieval, and agent contexts.",
+      "tags": ["rag", "data", "agents", "retrieval"],
+      "priority": 82
+    },
+    {
+      "id": "mcp-intro",
+      "title": "Model Context Protocol",
+      "url": "https://modelcontextprotocol.io/docs/getting-started/intro",
+      "type": "Protocol",
+      "category": "workflow",
+      "summary": "Open protocol for connecting AI applications to tools, data sources, and workflows.",
+      "tags": ["mcp", "tools", "integrations", "agents"],
+      "priority": 81
+    },
+    {
+      "id": "cursor-docs",
+      "title": "Cursor docs",
+      "url": "https://docs.cursor.com/",
+      "type": "Tool",
+      "category": "refactoring",
+      "summary": "Documentation for AI code editing, codebase context, chat, rules, and CLI workflows.",
+      "tags": ["editor", "refactoring", "codebase", "productivity"],
+      "priority": 78
+    },
+    {
+      "id": "github-copilot",
+      "title": "GitHub Copilot",
+      "url": "https://github.com/features/copilot",
+      "type": "Tool",
+      "category": "productivity",
+      "summary": "AI assistance across editor, terminal, GitHub workflows, code review, and collaboration.",
+      "tags": ["github", "coding", "review", "automation"],
+      "priority": 76
+    },
+    {
+      "id": "openai-prompting",
+      "title": "OpenAI prompting guide",
+      "url": "https://cookbook.openai.com/examples/gpt-5/gpt-5_prompting_guide",
+      "type": "Skill",
+      "category": "productivity",
+      "summary": "Prompting patterns for stronger instruction following, coding, and agentic task work.",
+      "tags": ["prompting", "skill", "coding", "agents"],
+      "priority": 74
+    },
+    {
+      "id": "design-arena",
+      "title": "Design Arena",
+      "url": "https://www.designarena.ai/about",
+      "type": "Tool",
+      "category": "design",
+      "summary": "AI-powered design arena for creating and exploring interface designs with generative AI.",
+      "tags": ["design", "ui", "generative", "arena"],
+      "priority": 85
+    },
+    {
+      "id": "kitten-tts",
+      "title": "KittenTTS",
+      "url": "https://github.com/KittenML/KittenTTS",
+      "type": "Tool",
+      "category": "tts",
+      "summary": "Open-source text-to-speech model with fast inference and natural-sounding voice synthesis.",
+      "tags": ["tts", "voice", "open-source", "audio"],
+      "priority": 83
+    },
+    {
+      "id": "dia-tts",
+      "title": "Dia",
+      "url": "https://github.com/nari-labs/dia",
+      "type": "Tool",
+      "category": "tts",
+      "summary": "Lightweight text-to-speech model optimized for real-time applications and edge devices.",
+      "tags": ["tts", "voice", "lightweight", "edge"],
+      "priority": 82
+    },
+    {
+      "id": "chat-tts",
+      "title": "ChatTTS",
+      "url": "https://github.com/2noise/ChatTTS",
+      "type": "Tool",
+      "category": "tts",
+      "summary": "Conversational text-to-speech model designed for natural dialogue and expressive voice generation.",
+      "tags": ["tts", "voice", "conversational", "dialogue"],
+      "priority": 81
+    },
+    {
+      "id": "grill-me-skill",
+      "title": "Grill Me Skill",
+      "url": "https://github.com/mattpocock/skills/blob/main/skills/productivity/grill-me/SKILL.md",
+      "type": "Skill",
+      "category": "productivity",
+      "summary": "A skill that relentlessly questions your plans and designs until reaching shared understanding.",
+      "tags": ["skill", "productivity", "planning", "review"],
+      "priority": 80
+    },
+    {
+      "id": "impeccable",
+      "title": "Impeccable",
+      "url": "https://github.com/pbakaus/impeccable",
+      "type": "Tool",
+      "category": "design",
+      "summary": "A tool for creating impeccable, polished designs with AI-assisted design engineering.",
+      "tags": ["design", "engineering", "polish", "ui"],
+      "priority": 79
+    },
+    {
+      "id": "getdesign-md",
+      "title": "getdesign.md",
+      "url": "https://getdesign.md/",
+      "type": "Directory",
+      "category": "design",
+      "summary": "Curated collection of design resources, tools, and references for building beautiful interfaces.",
+      "tags": ["design", "resources", "directory", "ui"],
+      "priority": 78
+    },
+    {
+      "id": "styles-refero",
+      "title": "Styles Refero",
+      "url": "https://styles.refero.design/",
+      "type": "Directory",
+      "category": "design",
+      "summary": "Design system references and style guides from top products for inspiration and consistency.",
+      "tags": ["design", "styles", "references", "system"],
+      "priority": 77
+    },
+    {
+      "id": "arxiv-2604-1559",
+      "title": "Research Paper: arXiv 2604.1559",
+      "url": "https://arxiv.org/abs/2604.1559",
+      "type": "Docs",
+      "category": "research",
+      "summary": "Latest AI research paper on arXiv covering advanced topics in machine learning and artificial intelligence.",
+      "tags": ["research", "paper", "arxiv", "ml"],
+      "priority": 88
+    },
+    {
+      "id": "openai-codex",
+      "title": "OpenAI Codex",
+      "url": "https://github.com/openai/codex",
+      "type": "Tool",
+      "category": "coding",
+      "summary": "OpenAI's advanced code generation model for building applications with natural language programming.",
+      "tags": ["coding", "openai", "code-generation", "ai"],
+      "priority": 92
+    },
+    {
+      "id": "transformer-explainer",
+      "title": "Transformer Explainer",
+      "url": "https://poloclub.github.io/transformer-explainer/",
+      "type": "Tool",
+      "category": "research",
+      "summary": "Interactive visualization tool for understanding how transformer models work under the hood.",
+      "tags": ["transformers", "visualization", "education", "research"],
+      "priority": 86
+    },
+    {
+      "id": "ngrok-prompt-caching",
+      "title": "Ngrok Prompt Caching Blog",
+      "url": "https://ngrok.com/blog/prompt-caching",
+      "type": "Docs",
+      "category": "research",
+      "summary": "Technical deep dive into prompt caching strategies for optimizing LLM application performance.",
+      "tags": ["prompts", "caching", "performance", "llm"],
+      "priority": 84
+    },
+    {
+      "id": "agentation",
+      "title": "Agentation",
+      "url": "https://www.agentation.com/",
+      "type": "Tool",
+      "category": "workflow",
+      "summary": "Browser extension and platform for building and deploying AI agents with visual workflows.",
+      "tags": ["agents", "extension", "workflow", "automation"],
+      "priority": 85
+    },
+    {
+      "id": "hermes-agent",
+      "title": "Hermes Agent",
+      "url": "https://github.com/nousresearch/hermes-agent",
+      "type": "Tool",
+      "category": "workflow",
+      "summary": "Open-source agent framework from Nous Research for building autonomous AI systems.",
+      "tags": ["agents", "open-source", "autonomous", "framework"],
+      "priority": 83
+    },
+    {
+      "id": "openclaw",
+      "title": "OpenClaw",
+      "url": "https://openclaw.ai/",
+      "type": "Tool",
+      "category": "productivity",
+      "summary": "AI-powered productivity platform for task automation and intelligent workflow management.",
+      "tags": ["productivity", "automation", "workflow", "ai"],
+      "priority": 81
+    }
+  ],
+  "articleGroups": [
+    {
+      "id": "learn",
+      "label": "Learn",
+      "description": "Understand AI systems before choosing tools."
+    },
+    {
+      "id": "build",
+      "label": "Build",
+      "description": "Ship production AI features with grounded patterns."
+    },
+    {
+      "id": "refactor",
+      "label": "Refactor",
+      "description": "Improve existing products and codebases with AI assistance."
+    },
+    {
+      "id": "automate",
+      "label": "Automate",
+      "description": "Turn repeatable procedures into agent-ready workflows."
+    },
+    {
+      "id": "read",
+      "label": "Read",
+      "description": "Keep a calm queue of notable AI writing."
+    }
+  ],
+  "articles": [
+    {
+      "id": "anthropic-effective-agents",
+      "title": "Building Effective AI Agents",
+      "url": "https://resources.anthropic.com/building-effective-ai-agents",
+      "source": "Anthropic",
+      "group": "build",
+      "summary": "Architecture patterns and implementation guidance for production agent systems.",
+      "tags": ["agents", "architecture", "workflows"],
+      "date": "Evergreen"
+    },
+    {
+      "id": "openai-gpt-prompting",
+      "title": "GPT prompting guide",
+      "url": "https://cookbook.openai.com/examples/gpt-5/gpt-5_prompting_guide",
+      "source": "OpenAI Cookbook",
+      "group": "learn",
+      "summary": "Prompting guidance for instruction following, coding, and agentic execution.",
+      "tags": ["prompting", "coding", "agents"],
+      "date": "Evergreen"
+    },
+    {
+      "id": "mcp-introduction",
+      "title": "What is MCP?",
+      "url": "https://modelcontextprotocol.io/docs/getting-started/intro",
+      "source": "Model Context Protocol",
+      "group": "automate",
+      "summary": "A clear introduction to connecting AI systems with tools, files, and workflows.",
+      "tags": ["mcp", "integrations", "tools"],
+      "date": "Evergreen"
+    },
+    {
+      "id": "manus-skill-safety",
+      "title": "Verifying community skills",
+      "url": "https://manus.im/docs/features/skills",
+      "source": "Manus Docs",
+      "group": "refactor",
+      "summary": "Practical notes for inspecting reusable skill files before loading them into an agent.",
+      "tags": ["skills", "security", "review"],
+      "date": "Evergreen"
+    }
+  ]
+}

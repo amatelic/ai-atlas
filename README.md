@@ -31,16 +31,16 @@ Output will be in `dist/` directory.
 
 ## Deploying
 
-The site is permanently deployed at **https://ai-links-search.pages.dev**.
+The site is permanently deployed at **https://ai-atlas-2cb.pages.dev**.
 
 To deploy updates:
 
 ```bash
 npm run build
-npx wrangler pages deploy dist --project-name=ai-links-search --branch=master
+npx wrangler pages deploy dist --project-name=ai-atlas --branch=main
 ```
 
-The URL will always remain `https://ai-links-search.pages.dev` as long as the Cloudflare project name stays `ai-links-search`.
+The URL will always remain `https://ai-atlas-2cb.pages.dev` as long as the Cloudflare project name stays `ai-atlas`.
 
 ## Data
 

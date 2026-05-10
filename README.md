@@ -31,7 +31,7 @@ Output will be in `dist/` directory.
 
 ## Deploying
 
-The site is permanently deployed at **https://ai-atlas-2cb.pages.dev**.
+The site is deployed at **https://ai.gdo-studio.si/**.
 
 To deploy updates:
 
@@ -40,7 +40,7 @@ npm run build
 npx wrangler pages deploy dist --project-name=ai-atlas --branch=main
 ```
 
-The URL will always remain `https://ai-atlas-2cb.pages.dev` as long as the Cloudflare project name stays `ai-atlas`.
+Cloudflare Pages may also expose the project under a `pages.dev` URL, but the public canonical URL is `https://ai.gdo-studio.si/`.
 
 ## Data
 

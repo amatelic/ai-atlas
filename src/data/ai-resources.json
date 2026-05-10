@@ -384,6 +384,16 @@
       "summary": "Practical notes for inspecting reusable skill files before loading them into an agent.",
       "tags": ["skills", "security", "review"],
       "date": "Evergreen"
+    },
+    {
+      "id": "annotated-transformer",
+      "title": "The Annotated Transformer",
+      "url": "https://nlp.seas.harvard.edu/annotated-transformer/",
+      "source": "Harvard NLP",
+      "group": "learn",
+      "summary": "A line-by-line walkthrough of the 'Attention Is All You Need' paper with PyTorch implementations, explaining how transformers work from the ground up.",
+      "tags": ["transformers", "attention", "nlp", "education", "pytorch"],
+      "date": "Evergreen"
     }
   ]
 }
